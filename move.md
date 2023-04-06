@@ -31,3 +31,17 @@ script {
         let b = false; // here's an example with false
     }
 }
+
+
+script {
+    fun main() {
+        let addr: address;
+
+        addr = {{sender}};
+
+        addr = 0x....;
+
+        addr = wallet1...;
+        
+    }
+}
